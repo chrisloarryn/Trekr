@@ -14,6 +14,10 @@
 		498FDA002A9075C500A2F571 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 498FD9FE2A9075C500A2F571 /* tips.json */; };
 		498FDA012A9075C500A2F571 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 498FD9FF2A9075C500A2F571 /* locations.json */; };
 		498FDA052A9082F200A2F571 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FDA042A9082F200A2F571 /* Location.swift */; };
+		498FDA072A90869000A2F571 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FDA062A90869000A2F571 /* Locations.swift */; };
+		498FDA092A9089CC00A2F571 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FDA082A9089CC00A2F571 /* WorldView.swift */; };
+		498FDA0B2A9089F400A2F571 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FDA0A2A9089F400A2F571 /* TipsView.swift */; };
+		498FDA0D2A908A0400A2F571 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FDA0C2A908A0400A2F571 /* Tip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		498FD9FE2A9075C500A2F571 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		498FD9FF2A9075C500A2F571 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		498FDA042A9082F200A2F571 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		498FDA062A90869000A2F571 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		498FDA082A9089CC00A2F571 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		498FDA0A2A9089F400A2F571 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		498FDA0C2A908A0400A2F571 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,10 @@
 				498FD9FE2A9075C500A2F571 /* tips.json */,
 				498FD9F62A90732900A2F571 /* Preview Content */,
 				498FDA042A9082F200A2F571 /* Location.swift */,
+				498FDA062A90869000A2F571 /* Locations.swift */,
+				498FDA082A9089CC00A2F571 /* WorldView.swift */,
+				498FDA0A2A9089F400A2F571 /* TipsView.swift */,
+				498FDA0C2A908A0400A2F571 /* Tip.swift */,
 			);
 			path = Trekr;
 			sourceTree = "<group>";
@@ -148,8 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498FDA0B2A9089F400A2F571 /* TipsView.swift in Sources */,
 				498FD9F32A90732700A2F571 /* ContentView.swift in Sources */,
 				498FDA052A9082F200A2F571 /* Location.swift in Sources */,
+				498FDA0D2A908A0400A2F571 /* Tip.swift in Sources */,
+				498FDA092A9089CC00A2F571 /* WorldView.swift in Sources */,
+				498FDA072A90869000A2F571 /* Locations.swift in Sources */,
 				498FD9F12A90732700A2F571 /* TrekrApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
